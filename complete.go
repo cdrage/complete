@@ -7,8 +7,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/posener/complete/cmd"
-	"github.com/posener/complete/match"
+	"github.com/cdrage/complete/cmd"
+	"github.com/cdrage/complete/match"
 )
 
 const (

@@ -1,10 +1,10 @@
 # complete
 
-[![Build Status](https://travis-ci.org/posener/complete.svg?branch=master)](https://travis-ci.org/posener/complete)
-[![codecov](https://codecov.io/gh/posener/complete/branch/master/graph/badge.svg)](https://codecov.io/gh/posener/complete)
-[![golangci](https://golangci.com/badges/github.com/posener/complete.svg)](https://golangci.com/r/github.com/posener/complete)
-[![GoDoc](https://godoc.org/github.com/posener/complete?status.svg)](http://godoc.org/github.com/posener/complete)
-[![goreadme](https://goreadme.herokuapp.com/badge/posener/complete.svg)](https://goreadme.herokuapp.com)
+[![Build Status](https://travis-ci.org/cdrage/complete.svg?branch=master)](https://travis-ci.org/cdrage/complete)
+[![codecov](https://codecov.io/gh/cdrage/complete/branch/master/graph/badge.svg)](https://codecov.io/gh/cdrage/complete)
+[![golangci](https://golangci.com/badges/github.com/cdrage/complete.svg)](https://golangci.com/r/github.com/cdrage/complete)
+[![GoDoc](https://godoc.org/github.com/cdrage/complete?status.svg)](http://godoc.org/github.com/cdrage/complete)
+[![goreadme](https://goreadme.herokuapp.com/badge/cdrage/complete.svg)](https://goreadme.herokuapp.com)
 
 Package complete provides a tool for bash writing bash completion in go, and bash completion for the go command line.
 
@@ -24,7 +24,7 @@ can also be used to implement any completions, see #usage.
 1. Type in your shell:
 
 ```go
-go get -u github.com/posener/complete/gocomplete
+go get -u github.com/cdrage/complete/gocomplete
 gocomplete -install
 ```
 
@@ -61,7 +61,7 @@ options for `run`.
 So here it is:
 
 ```go
-import "github.com/posener/complete"
+import "github.com/cdrage/complete"
 
 func main() {
 
